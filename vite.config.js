@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://ecom-server-0oqa.onrender.com",
+        target: "http://localhost:5000",
         changeOrigin: true,
         secure: false, // 👈 This disables strict SSL validation for dev
       }
