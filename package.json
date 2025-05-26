@@ -12,6 +12,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^7.1.0",
     "axios": "^1.8.4",
+    "ecommerce-backend": "file:../server",
     "framer": "^2.4.1",
     "frontend": "file:",
     "lucide-react": "^0.501.0",
